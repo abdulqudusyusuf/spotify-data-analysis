@@ -41,10 +41,10 @@ Inside Power BI, I:
 
 To better understand my listening habits, I created custom DAX measures in Power BI:
 
-**Total Plays** – Total number of songs played
+**Total Minutes Listened** – The overall time spent listening.
 
 ```DAX
-Total Plays = COUNTROWS('Spotify History')
+Total Minutes Listened = SUM('Spotify History'[Minutes Played])
 ```
 
 **Unique Artists** – Distinct count of artists listened to
@@ -62,13 +62,23 @@ Unique Songs = DISTINCTCOUNT('Spotify History'[Song Title])
 **Average Plays Per Day** – Daily average of songs played
 
 ```DAX
-Average Plays Per Day = DIVIDE([Total Plays], DISTINCTCOUNT('Spotify History'[Date]))
+Average Plays Per Day =
+DIVIDE(
+    COUNTROWS('Spotify History'),
+    DISTINCTCOUNT('Spotify History'[Date])
+)
+
 ```
 
 **Monthly Plays Trend** – Plays grouped by month
 
 ```DAX
-Monthly Plays = CALCULATE([Total Plays], DATESMTD('Spotify History'[Date]))
+Monthly Minutes =
+CALCULATE(
+    SUM('Spotify History'[Minutes Played]),
+    VALUES('Spotify History'[Month])
+)
+
 ```
 
 ## 📂 Dashboard File
@@ -78,8 +88,6 @@ Monthly Plays = CALCULATE([Total Plays], DATESMTD('Spotify History'[Date]))
 ---
 
 ## 📈 Dashboard Overview
-
-Here’s the final **Spotify Analysis Dashboard** in Power BI 🎨:
 
 _(Insert screenshot of your dashboard here)_
 

@@ -192,8 +192,6 @@ This project gave me an early preview of my **Spotify Wrapped**, showing how muc
 
 ---
 
-✨ Built with **Excel | Python (Pandas) | Power BI (DAX & Visualization)**
-
 ```
-
+✨ Built with **Excel | Python (Pandas) | Power BI (DAX & Visualization)**
 ```

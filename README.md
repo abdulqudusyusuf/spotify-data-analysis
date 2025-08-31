@@ -1,7 +1,10 @@
 # 🎧 Spotify Data Analysis Dashboard  
 
+## 🖼️ Preview  
+*(Optional: Add another dashboard screenshot or a GIF preview of the Power BI interactions)*  
+
 ## 📌 Introduction  
-We usually wait until the end of the year for **Spotify Wrapped**, but I was curious about my listening habits *before* December.  
+I usually wait until the end of the year for my **Spotify Wrapped**, but I was curious about my listening habits *before* December.  
 So, I created my own **Spotify Data Analysis** for **January 2025 – August 2025** to uncover insights into my music taste, listening patterns, and top tracks.  
 
 This project highlights the **end-to-end data journey**:  
@@ -72,10 +75,7 @@ This project gave me an early preview of my **Spotify Wrapped**, showing how muc
 
 ---
 
-## 🖼️ Preview  
-*(Optional: Add another dashboard screenshot or a GIF preview of the Power BI interactions)*  
 
----
 
 ## 🟩 Spotify Theme  
 The dashboard was styled with **Spotify’s signature colors**:  

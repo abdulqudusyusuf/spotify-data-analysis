@@ -1,14 +1,12 @@
 # 🎧 Spotify Data Analysis Dashboard
 
-## 🖼️ Preview
+![excel_salary_dashboard.gif](/Images/excel_salary_dashboard.gif)
 
-_(Optional: Add another dashboard screenshot or a GIF preview of the Power BI interactions)_
-
-## 📌 Introduction
+## Introduction
 
 **Spotify Wrapped** is something I always look forward to at the end of the year. Seeing which artists topped my charts and which songs I had on repeat is always exciting. But this time, I decided I wasn’t going to wait until December to get the answers. So, I pulled my own data and analyzed my listening history from **January – August 2025**. In this project, I’ll walk you through my data cleaning and collection process and of course, the detailed analysis of my listening habits.
 
-## 📊 Data Collection Process
+## Data Collection Process
 
 To kick off this project, I requested my complete Spotify listening history for 2025 directly from Spotify.  
 They sent me a `.json` file containing detailed logs of every track I played. Since JSON isn’t the most convenient format for analysis, I used **Pandas** in Python to convert it into an Excel (`.xlsx`) file. This gave me a structured dataset that I could easily work with and later import into Power BI for visualization.
@@ -83,13 +81,13 @@ CALCULATE(
 
 ## 📂 Dashboard File
 
-🔗 [Download Power BI File (.pbix)](./Spotify_Analysis.pbix)
+🔗 [Download Power BI File (.pbix)](./StreamingHistory2025.pbix)
 
 ---
 
-## 📈 Dashboard Overview
+## Dashboard Overview
 
-_(Insert screenshot of your dashboard here)_
+![excel_salary_dashboard.png](/Images/excel_salary_dashboard.png)
 
 The dashboard contains:
 
@@ -127,7 +125,7 @@ On average, I hit **19 plays per day**. This consistency reflects how music is *
 
 ---
 
-### 🏆 Top 5 Artists
+### 🎤 Top 5 Artists
 
 1. **Drake**
 2. **J. Cole**
@@ -135,7 +133,7 @@ On average, I hit **19 plays per day**. This consistency reflects how music is *
 4. **The Weeknd**
 5. **Kanye West**
 
-🔑 **Insight**: My listening skews heavily toward **rap and R&B**, showing strong loyalty to my long-time favorites.
+**Insight**: My listening skews heavily toward **rap and R&B**, showing strong loyalty to my long-time favorites.
 
 ---
 
@@ -176,7 +174,7 @@ My listening peaked in **May (1,151 plays)** and dipped drastically in **March (
 1.  **Rap and R&B dominated my charts**, showing my international music preference over local trends.
 2.  Drake has consistently been my **Top Artist for 4+ years**. This highlights strong **listening loyalty**, even as I continue to discover new music.
 
-## 🤔 What Did I Learn?
+## What Did I Learn?
 
 Looking back at the analysis, a few clear patterns stand out:
 

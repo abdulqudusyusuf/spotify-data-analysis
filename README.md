@@ -103,19 +103,19 @@ The dashboard contains:
 
 ### ⏱️ Total Minutes Listened
 
-So far in this year I have listened to music for over **22,000 minutes**. That’s over **360 hours** of streaming — showingt that i'm quite an avid music listener.
+I’ve streamed music for over **22,000 minutes** so far this year — that’s around 376 hours, or almost 47 hours each month. Music clearly plays a steady role in my lifestyle.
 
 ---
 
 ### 👥 Unique Artists
 
-I listened to **500 unique artists** throughout the year. This highlights my **diverse taste in music**, as I actively explore different sounds instead of sticking to the same few artists.
+I listened to **500 unique artists**. This reflects a balance of loyalty and exploration — while I have clear favorites, I still branch out to discover plenty of new voices.
 
 ---
 
 ### 🎵 Unique Songs
 
-I played around **2,500 different songs**. This shows I don’t just replay the same tracks on loop — I enjoy rotating between **variety and new discoveries**.
+I played around **2,500 different songs**. This shows I don’t stick to a narrow playlist but rotate regularly between new discoveries and repeat favorites.
 
 ---
 
@@ -133,7 +133,7 @@ On average, I hit **19 plays per day**. This consistency reflects how music is *
 4. **The Weeknd**
 5. **Kanye West**
 
-**Insight**: My listening skews heavily toward **rap and R&B**, showing strong loyalty to my long-time favorites.
+**Insight**: Drake completely dominates my listening, but I still keep space for other Hip-Hop and R&B heavyweights.
 
 ---
 
@@ -145,6 +145,8 @@ On average, I hit **19 plays per day**. This consistency reflects how music is *
 4. **On My Way** – Drake & PARTYNEXTDOOR
 5. **3001** – J. Cole
 
+**Insight**: Even my most played songs don’t run into hundreds of repeats, showing I prefer variety over looping one track endlessly.
+
 ---
 
 ### 💿 Top 5 Albums
@@ -154,6 +156,8 @@ On average, I hit **19 plays per day**. This consistency reflects how music is *
 3. **For All The Dogs** – Drake
 4. **Might Delete Later** – J. Cole
 5. **Honestly, Nevermind** – Drake
+
+**Insight**: One album (Some Sexy Songs For You) heavily outperformed the rest, but Drake’s influence is present throughout, with J. Cole breaking through as the only other major presence.
 
 ---
 
@@ -165,14 +169,16 @@ Beyond minutes, I tracked **total streams**, giving a clearer picture of my list
 
 ### 📈 Listening Patterns
 
-My listening peaked in **May (1,151 plays)** and dipped drastically in **March (46 plays)**, possibly reflecting changes in my routine, or personal schedule.
-
+- Peaked in May **(1,151 plays)** → my busiest listening month.
+- Lowest in March **(46 plays)** → almost a complete break from Spotify.
+- Recovery in July–August **(832 → 922 plays)** → showing how my listening adjusts with my personal schedule.
 ---
 
 ### 🌍 Key Discoveries
 
-1.  **Rap and R&B dominated my charts**, showing my international music preference over local trends.
-2.  Drake has consistently been my **Top Artist for 4+ years**. This highlights strong **listening loyalty**, even as I continue to discover new music.
+1.  My charts are heavily Hip-Hop/R&B driven, with Drake as the backbone of my library.
+2.  Even with Drake’s dominance, I still explored 544 unique artists and 2,448 songs, proving I’m not locked into just one lane.
+3.  My listening habits are seasonal and lifestyle-driven — sharp drops (like March) reflect busy life periods, but I always bounce back.
 
 ## What Did I Learn?
 
@@ -183,6 +189,8 @@ Looking back at the analysis, a few clear patterns stand out:
 - **Explorer vs. Loyalist**: I listened to **500 unique artists** and **2,500 unique songs**, yet Drake has been my **Top Artist for 3+ years** — showing I balance **exploration** with **loyal loyalty**.
 - **Seasonal Listening**: My listening dipped drastically in **March (46 plays)** but peaked in **May (1,151 plays)**, reflecting how life events directly influence my habits.
 - **Artist Loyalty Runs Deep**: Drake consistently tops not just my artist list, but also dominates my **songs and albums** — proving he’s the backbone of my library.
+- **The Power of Data Cleaning**: I learned how important it is to properly clean and structure raw data. Spotify history isn’t analysis-ready out of the box, so I had to carefully transform it to make meaningful insights possible.
+- **DAX & Measures in Power BI**: I improved my ability to create calculated columns and DAX measures. Metrics like Total Minutes Listened, Unique Artists, and Average Plays Per Day helped me see how to turn raw numbers into useful insights.
 
 ## Future Work
 
